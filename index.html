@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>01.Application Form</h1>
+    <form action="next.php" method="get">
+    <div>
+        <label for="name">Name :</label>
+        <input type="text" name="name" id="name">
+        <br>
+        <br>
+        <br>
+    </div>
+    <div>
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <br>
+    </div>
+    <div>
+         <label for="gender">Gender :</label><br>
+         <input type="radio" name="gender" id="Male" value="Male">Male
+         <input type="radio" name="gender" id="Female" value="Female">Female
+    </div>
+    <br><br>
+    <div>
+        <label for="CHOOSE SKILLS">CHOOSE SKILLS</label><br><br>
+        <input type="checkbox" name="choose skills" id="choose skills" value="Html">HTML
+        <input type="checkbox" name="choose skills" id="choose skills" value="Css">CSS
+        <input type="checkbox" name="choose skills" id="choose skills" value="Js">JS
+        <input type="checkbox" name="choose skills" id="choose skills" value="Bootstrap">Bootstrap
+        <input type="checkbox" name="choose skills" id="choose skills" value="React">React
+    </div>
+    <br>
+    <br>
+    <br>
+    <div>
+       <label>JOB TYPE :</label>
+       <select >
+        <option value="Frontend Developer">Frontend Developer</option>
+        <option value="Frontend Developer">Backend Developer</option>
+        <option value="Frontend Developer">Fullstack Developer</option>
+        <option value="Frontend Developer">Ui/Ux Developer</option>
+       </select>
+    </div>
+    <br>
+    <br>
+    <label>Choose your browser from the list :</label>
+    <input type="text"><br>
+    <textarea placeholder="Give a brief summary about you"></textarea>
+    <br>
+    <br>
+    <br>
+    <input type="submit" value="Submit">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <h1>02.Batch List</h1>
+    <ul>
+        <li>SENCHOLOA UNIVERSITY
+            <ol><br>
+                <li>First Batch
+                    <ol type="A"> <br>
+                        <li>Gowtham</li><br>
+                        <li>Gokul</li><br>
+                        <li>Balaji</li><br>
+                    </ol>
+                </li>
+                <br>
+                <li>Second Batch
+                    <ol type="I"><br>
+                        <li>Deva</li><br>
+                        <li>Ragul</li><br>
+                        <li>Boopathi</li><br>
+                    </ol>
+                </li>
+                <br>
+                <li>Third Batch
+                    <ol type="i"><br>
+                        <li>Azar</li><br>
+                        <li>Surya</li><br>
+                        <li>Guna</li><br>
+
+                    </ol>
+                </li>
+            </ol>
+        </li>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table border="2px">
+            <h1>03.Courss</h1>
+            <tr>
+                <th>S.NO 1</th>
+                <th>S.NO 2</th>
+                <th>S.NO 3</th>
+                <th>S.NO 4</th>
+            </tr>
+           <tr>
+            <td rowspan="2">REACT JS</td>
+            <td>HTML</td>
+            <td rowspan="2">REACT JS</td>
+            <td>CSS</td>
+           </tr>
+           <tr>
+            <td>CSS</td>
+            <td>HTML</td>
+           </tr>
+          <tr>
+            <td colspan="2">JAVASCRIPT</td>
+            <td colspan="2">BOOTSTRAP</td>
+          </tr>
+       
+        </table>         
+    
+               
+</form>
+</body>
+</html>
